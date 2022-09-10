@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction:column;
     margin:0px;
+    gap:5px;
 }
 
 .head{
@@ -14,17 +15,35 @@ body{
 .title{
     padding-left:15px;
     
+}
+.section{
+    
+    display:flex;
+    flex-direction: column;
     
 }
-.education{
-    display:flex;
+.container{
     justify-content: space-between;
-    
+    display:flex;
 }
 .right{
+    
     padding-right:15px;
+    text-align:right;
+}
+
+
+.left{
+    
+    padding-left:15px;
+}
+
+.list{
+    display:flex;
+    justify-content:baseline;
     
 }
-.left{
-    padding-left:15px;
+
+li{
+    padding:2px;
 }
