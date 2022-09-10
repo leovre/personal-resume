@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction:column;
+    margin:0px;
+}
+
+.head{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding:10px;
+}
+
+.title{
+    padding-left:15px;
+    
+    
+}
+.education{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.right{
+    padding-right:15px;
+    
+}
+.left{
+    padding-left:15px;
+}
